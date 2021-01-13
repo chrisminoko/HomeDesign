@@ -1,0 +1,596 @@
+﻿
+<div class="about-content-wrap about-content-wrap-normal">
+
+
+    <div class="about-text about-text-1">
+
+        <div class="about-text-inner">
+
+            <h2>About</h2>
+
+            <p>Whitehall is a Manhattan-based design studio specializing in interior design, interior architecture, and custom furnishings. Our projects range from luxury multi-family residential to bespoke hospitality and commercial interiors. We strive to innovate and create unique end user experiences that inspire and maximize functional aesthetic.</p>
+
+
+        </div><!-- .about-text-inner -->
+
+    </div><!-- .about-text about-text-1 -->
+
+
+    <div class="about-images about-images-1">
+
+        <div class="about-images-inner">
+
+            <div class="about-images-pic about-images-1-1">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/91-Leonard-Lead-Image-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/91-Leonard-Lead-Image-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-1-1 -->
+
+            <div class="about-images-pic about-images-1-2">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/02_5-Court-Lobby-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/02_5-Court-Lobby-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-1-2 -->
+
+        </div><!-- .about-images-inner -->
+
+    </div><!-- .about-images about-images-1 -->
+
+
+</div><!-- .about-content-wrap -->
+
+
+<script type="text/javascript">jQuery(document).ready(function ($) {
+
+
+                setTimeout(function () {
+                    Waypoint.refreshAll();
+                }, 500);
+
+
+                setTimeout(function () {
+                    Waypoint.refreshAll();
+                }, 1000);
+
+
+                // Change Images
+
+                var aboutText1Height = $(".about-text-1").outerHeight();
+                var windowHeight = $(window).height();
+                var windowHeightMiunsHeader = windowHeight + 120; // includes header height and a little more for bottom paragraph padding
+                var targetPos = (windowHeightMiunsHeader / 2) - (aboutText1Height / 2);
+                //console.log("Text:" + aboutText1Height);
+                //console.log("Win:" + windowHeightMiunsHeader);
+                //console.log("Target:" + targetPos);
+
+                $('.about-text-1').waypoint(function (direction) {
+
+                    if (direction === 'down') {
+
+                        $('.about-images-1').addClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                $('.about-text-1').waypoint(function (direction) {
+
+                    if (direction === 'up') {
+
+                        $('.about-images-1').removeClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                // End Change Images
+
+
+
+                if ($(".about-text-1").outerHeight() > $(".about-images-1").outerHeight()) {
+
+                    if ($(window).width() > 639) {
+
+
+                        $('.about-text-1').waypoint(function (direction) {
+
+                            if (direction === 'down') {
+
+                                $('.about-images-1').addClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+                        $('.about-text-1').waypoint(function (direction) {
+
+                            if (direction === 'up') {
+
+                                $('.about-images-1').removeClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+
+                        $('.about-quote-1').waypoint(function (direction) {
+                            $('.about-images-1')
+                                .toggleClass('stuck', direction === 'up')
+                                .toggleClass('at-bottom', direction === 'down')
+                        }, {
+                            offset: '100%'
+                        });
+
+
+                    }
+
+                }
+
+            });</script>
+
+
+<div class="about-quote about-quote-1">
+
+    <div class="container">
+
+        <div class="about-quote-inner-wrap">
+
+            <div class="about-quote-inner">
+
+
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Whitehall Interiors considered in Top 10 telecommuter-friendly apartments.</span>
+
+                    <a href="https://www.multifamilyexecutive.com/design-development/design/10-beautiful-telecommuter-friendly-apartments_o" target="_blank" class="line-link">Multifamily Executive</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Whitehall Interiors mentioned in Top 6 Homes for Celebrities</span>
+
+                    <a href="http://blog.uniquehomes.com/nyc-homes-for-every-celebrity/" target="_blank" class="line-link">UniqueHomes</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Best Indoor Pools for Summer</span>
+
+                    <a href="https://luxexpose.com/best-indoor-pools-in-nyc-luxury-condos/" target="_blank" class="line-link">Luxe Expose</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Whitehall Interiors included as designed the Top Dog Friendly Amenities</span>
+
+                    <a href="https://www.6sqft.com/10-nyc-residential-buildings-with-the-best-amenities-for-dogs/" target="_blank" class="line-link">6sqft</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+
+            </div><!-- .about-quote-inner -->
+
+        </div><!-- .about-quote-inner-wrap -->
+
+    </div><!-- .container -->
+
+</div><!-- .about-quote about-quote-1 -->
+
+
+<script type="text/javascript">jQuery(document).ready(function ($) {
+
+                $('.about-quote-1 .about-quote-inner').slick({
+                    arrows: false,
+                    dots: false,
+                    infinite: true,
+                    speed: 2000,
+                    fade: true,
+                    autoplay: true,
+                    pauseOnHover: false,
+                    autoplaySpeed: 5500
+                });
+
+            });</script>
+
+
+
+
+<div class="about-content-wrap about-content-wrap-flip">
+
+
+    <div class="about-text about-text-2">
+
+        <div class="about-text-inner">
+
+            <h2>Portfolio</h2>
+
+            <p>For every project, we take inspiration from contextual relevance, classic design elements,  and curated materials. Bringing together aspects of modern art, design, music, fashion, and pop culture ensures every Whitehall project is equipped with a strong and compelling narrative. We strive to create a vision that exceeds the conventional boundaries of interior design.</p>
+
+
+        </div><!-- .about-text-inner -->
+
+    </div><!-- .about-text about-text-2 -->
+
+
+    <div class="about-images about-images-2">
+
+        <div class="about-images-inner">
+
+            <div class="about-images-pic about-images-2-1">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/01_220-Riverside-Blvd-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/01_220-Riverside-Blvd-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-2-1 -->
+
+            <div class="about-images-pic about-images-2-2">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/03_6440-NBR-Kitchen-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/03_6440-NBR-Kitchen-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-2-2 -->
+
+        </div><!-- .about-images-inner -->
+
+    </div><!-- .about-images about-images-2 -->
+
+
+</div><!-- .about-content-wrap -->
+
+
+<script type="text/javascript">jQuery(document).ready(function ($) {
+
+
+                // Change Images
+
+                var aboutText1Height = $(".about-text-2").outerHeight();
+                var windowHeight = $(window).height();
+                var windowHeightMiunsHeader = windowHeight + 120; // includes header height and a little more for bottom paragraph padding
+                var targetPos = (windowHeightMiunsHeader / 2) - (aboutText1Height / 2);
+                //console.log("Text:" + aboutText1Height);
+                //console.log("Win:" + windowHeightMiunsHeader);
+                //console.log("Target:" + targetPos);
+
+                $('.about-text-2').waypoint(function (direction) {
+
+                    if (direction === 'down') {
+
+                        $('.about-images-2').addClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                $('.about-text-2').waypoint(function (direction) {
+
+                    if (direction === 'up') {
+
+                        $('.about-images-2').removeClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                // End Change Images
+
+
+                if ($(".about-text-2").outerHeight() > $(".about-images-2").outerHeight()) {
+
+                    if ($(window).width() > 639) {
+
+
+                        $('.about-text-2').waypoint(function (direction) {
+
+                            if (direction === 'down') {
+
+                                $('.about-images-2').addClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+                        $('.about-text-2').waypoint(function (direction) {
+
+                            if (direction === 'up') {
+
+                                $('.about-images-2').removeClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+
+                        $('.about-quote-2').waypoint(function (direction) {
+                            $('.about-images-2')
+                                .toggleClass('stuck', direction === 'up')
+                                .toggleClass('at-bottom', direction === 'down')
+                        }, {
+                            offset: '100%'
+                        });
+
+
+                    }
+
+                }
+
+            });</script>
+
+
+<div class="about-quote about-quote-2">
+
+    <div class="container">
+
+        <div class="about-quote-inner-wrap">
+
+            <div class="about-quote-inner">
+
+
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Whitehall mentioned in Luxe Expose’s Aspiration Kitchens with Design Details that Delight</span>
+
+                    <a href="https://luxexpose.com/aspirational-kitchens-with-design-details-that-delight/" target="_blank" class="line-link">Luxe Expose</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">9 Stunning Interior Architecture Trends of 2019 including Whitehall Interiors</span>
+
+                    <a href="https://www.hauteresidence.com/9-stunning-interior-architecture-trends-of-2019/" target="_blank" class="line-link">Haute Residence</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+                <div class="about-quote-pod">
+
+                    <span class="quote-text">Stunning Outdoor Living Rooms for Summer</span>
+
+                    <a href="https://luxexpose.com/stunning-outdoor-living-rooms-for-summer/" target="_blank" class="line-link">Luxe Expose</a>
+
+                </div><!-- .about-quote-pod -->
+
+
+
+            </div><!-- .about-quote-inner -->
+
+        </div><!-- .about-quote-inner-wrap -->
+
+    </div><!-- .container -->
+
+</div><!-- .about-quote about-quote-2 -->
+
+
+<script type="text/javascript">jQuery(document).ready(function ($) {
+
+                $('.about-quote-2 .about-quote-inner').slick({
+                    arrows: false,
+                    dots: false,
+                    infinite: true,
+                    speed: 2000,
+                    fade: true,
+                    autoplay: true,
+                    pauseOnHover: false,
+                    autoplaySpeed: 5500
+                });
+
+            });</script>
+
+
+
+
+<div class="about-content-wrap about-content-wrap-normal">
+
+
+    <div class="about-text about-text-3">
+
+        <div class="about-text-inner">
+
+            <h2>Leadership</h2>
+
+            <p>We take pride in our unique team structure which emphasizes collaboration and promotes cutting edge specialization. Our team is comprised of dedicated and talented professionals disciplined in both quality and craft. From setting a project’s initial visual tone in concept design to construction documentation and administration, our team deliver high quality and tailored solutions every step of the way.</p>
+
+
+        </div><!-- .about-text-inner -->
+
+    </div><!-- .about-text about-text-3 -->
+
+
+    <div class="about-images about-images-3">
+
+        <div class="about-images-inner">
+
+            <div class="about-images-pic about-images-3-1">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/1399-Park-Avenue-1-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/1399-Park-Avenue-1-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-3-1 -->
+
+            <div class="about-images-pic about-images-3-2">
+
+                <div class="image-color-block">
+
+                    <img srcset="https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/1399-Park-Avenue-2-550x660.jpg, https://www.whitehallinteriorsnyc.com/wp-content/uploads/2017/10/1399-Park-Avenue-2-550x660@2x.jpg 2x" />
+
+                </div><!-- .image-color-block -->
+
+            </div><!-- .about-images-3-2 -->
+
+        </div><!-- .about-images-inner -->
+
+    </div><!-- .about-images about-images-3 -->
+
+
+</div><!-- .about-content-wrap -->
+
+
+<script type="text/javascript">jQuery(document).ready(function ($) {
+
+
+                // Change Images
+
+                var aboutText1Height = $(".about-text-3").outerHeight();
+                var windowHeight = $(window).height();
+                var windowHeightMiunsHeader = windowHeight + 120; // includes header height and a little more for bottom paragraph padding
+                var targetPos = (windowHeightMiunsHeader / 2) - (aboutText1Height / 2);
+                //console.log("Text:" + aboutText1Height);
+                //console.log("Win:" + windowHeightMiunsHeader);
+                //console.log("Target:" + targetPos);
+
+                $('.about-text-3').waypoint(function (direction) {
+
+                    if (direction === 'down') {
+
+                        $('.about-images-3').addClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                $('.about-text-3').waypoint(function (direction) {
+
+                    if (direction === 'up') {
+
+                        $('.about-images-3').removeClass('image2');
+
+                    }
+
+                }, {
+                    offset: targetPos
+                });
+
+                // End Change Images
+
+
+                if ($(".about-text-3").outerHeight() > $(".about-images-3").outerHeight()) {
+
+                    if ($(window).width() > 639) {
+
+
+                        $('.about-text-3').waypoint(function (direction) {
+
+                            if (direction === 'down') {
+
+                                $('.about-images-3').addClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+                        $('.about-text-3').waypoint(function (direction) {
+
+                            if (direction === 'up') {
+
+                                $('.about-images-3').removeClass('stuck');
+
+                            }
+
+                        }, {
+                            offset: 100
+                        });
+
+
+
+                        $('.hillwest').waypoint(function (direction) {
+                            $('.about-images-3')
+                                .toggleClass('stuck', direction === 'up')
+                                .toggleClass('at-bottom', direction === 'down')
+                        }, {
+                            offset: '100%'
+                        });
+
+
+                    }
+
+                }
+
+            });</script>
+
+
+
+
+
+<div class="hillwest">
+
+
+
+    <div class="hillwest-image" style="background-image: url('../wp-content/uploads/2020/07/07280731-1.jpg');">
+    </div><!-- .hillwest-image -->
+
+
+    <div class="container">
+
+        <div class="main-content">
+
+            <div class="hillwest-content">
+
+                <img class="hillwest-logo" srcset="https://www.whitehallinteriorsnyc.com/wp-content/themes/speedway-foundation/images/logo-hillwest.png, https://www.whitehallinteriorsnyc.com/wp-content/themes/speedway-foundation/images/logo-hillwest@2x.png 2x" />
+
+                <p>We collaborate with our affiliated architecture firm, Hill West to create holistic buildings that are as thoughtfully designed on the exterior as they are on the interior.</p>
+
+                <span class="line-link">Visit Hill West</span>
+
+            </div><!-- .hillwest-content -->
+
+        </div><!-- .main-content -->
+
+    </div><!-- .container -->
+
+    <a class="pod-link" href="https://hillwest.com/" target="_blank"></a>
+
+</div><!-- .hillwest -->

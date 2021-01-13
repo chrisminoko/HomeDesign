@@ -1,0 +1,122 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3570738, 2018-04-30T13:54:28-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sailec-Bold by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/bold/
+ * 
+ * Webfont: Sailec-BlackItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/black-italic/
+ * 
+ * Webfont: Sailec-HairlineItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/hairline-italic/
+ * 
+ * Webfont: Sailec-Hairline by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/hairline/
+ * 
+ * Webfont: Sailec-BoldItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/bold-italic/
+ * 
+ * Webfont: Sailec-Black by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/black/
+ * 
+ * Webfont: Sailec-Light by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/light/
+ * 
+ * Webfont: Sailec-LightItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/light-italic/
+ * 
+ * Webfont: Sailec-Medium by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/medium/
+ * 
+ * Webfont: Sailec-MediumItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/medium-italic/
+ * 
+ * Webfont: Sailec-Regular by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/regular/
+ * 
+ * Webfont: Sailec-RegularItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/regular-italic/
+ * 
+ * Webfont: Sailec-Thin by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/thin/
+ * 
+ * Webfont: Sailec-ThinItalic by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/sailec/thin-italic/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3570738
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Type Dynamic. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/367c32");
+
+  
+@font-face {font-family: 'Sailec-Bold';src: url('webfonts/367C32_0_0.eot');src: url('webfonts/367C32_0_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_0_0.woff2') format('woff2'),url('webfonts/367C32_0_0.woff') format('woff'),url('webfonts/367C32_0_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-BlackItalic';src: url('webfonts/367C32_1_0.eot');src: url('webfonts/367C32_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_1_0.woff2') format('woff2'),url('webfonts/367C32_1_0.woff') format('woff'),url('webfonts/367C32_1_0.ttf') format('truetype');}
+*/ 
+  
+/*@font-face {font-family: 'Sailec-HairlineItalic';src: url('webfonts/367C32_2_0.eot');src: url('webfonts/367C32_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_2_0.woff2') format('woff2'),url('webfonts/367C32_2_0.woff') format('woff'),url('webfonts/367C32_2_0.ttf') format('truetype');}
+*/ 
+  
+@font-face {font-family: 'Sailec-Hairline';src: url('webfonts/367C32_3_0.eot');src: url('webfonts/367C32_3_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_3_0.woff2') format('woff2'),url('webfonts/367C32_3_0.woff') format('woff'),url('webfonts/367C32_3_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-BoldItalic';src: url('webfonts/367C32_4_0.eot');src: url('webfonts/367C32_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_4_0.woff2') format('woff2'),url('webfonts/367C32_4_0.woff') format('woff'),url('webfonts/367C32_4_0.ttf') format('truetype');}
+*/ 
+  
+@font-face {font-family: 'Sailec-Black';src: url('webfonts/367C32_5_0.eot');src: url('webfonts/367C32_5_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_5_0.woff2') format('woff2'),url('webfonts/367C32_5_0.woff') format('woff'),url('webfonts/367C32_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Sailec-Light';src: url('webfonts/367C32_6_0.eot');src: url('webfonts/367C32_6_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_6_0.woff2') format('woff2'),url('webfonts/367C32_6_0.woff') format('woff'),url('webfonts/367C32_6_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-LightItalic';src: url('webfonts/367C32_7_0.eot');src: url('webfonts/367C32_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_7_0.woff2') format('woff2'),url('webfonts/367C32_7_0.woff') format('woff'),url('webfonts/367C32_7_0.ttf') format('truetype');}
+*/ 
+  
+@font-face {font-family: 'Sailec-Medium';src: url('webfonts/367C32_8_0.eot');src: url('webfonts/367C32_8_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_8_0.woff2') format('woff2'),url('webfonts/367C32_8_0.woff') format('woff'),url('webfonts/367C32_8_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-MediumItalic';src: url('webfonts/367C32_9_0.eot');src: url('webfonts/367C32_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_9_0.woff2') format('woff2'),url('webfonts/367C32_9_0.woff') format('woff'),url('webfonts/367C32_9_0.ttf') format('truetype');}
+*/ 
+  
+@font-face {font-family: 'Sailec-Regular';src: url('webfonts/367C32_A_0.eot');src: url('webfonts/367C32_A_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_A_0.woff2') format('woff2'),url('webfonts/367C32_A_0.woff') format('woff'),url('webfonts/367C32_A_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-RegularItalic';src: url('webfonts/367C32_B_0.eot');src: url('webfonts/367C32_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_B_0.woff2') format('woff2'),url('webfonts/367C32_B_0.woff') format('woff'),url('webfonts/367C32_B_0.ttf') format('truetype');}
+*/ 
+  
+@font-face {font-family: 'Sailec-Thin';src: url('webfonts/367C32_C_0.eot');src: url('webfonts/367C32_C_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_C_0.woff2') format('woff2'),url('webfonts/367C32_C_0.woff') format('woff'),url('webfonts/367C32_C_0.ttf') format('truetype');}
+ 
+  
+/*@font-face {font-family: 'Sailec-ThinItalic';src: url('webfonts/367C32_D_0.eot');src: url('webfonts/367C32_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/367C32_D_0.woff2') format('woff2'),url('webfonts/367C32_D_0.woff') format('woff'),url('webfonts/367C32_D_0.ttf') format('truetype');}*/
+
+
+/* GT Super */
+
+
+@font-face {
+	font-family: 'GT-Super';
+	src: url('webfonts/GT-Super-Text-Bold.eot');
+	src: url('webfonts/GT-Super-Text-Boldd41d.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/GT-Super-Text-Bold.woff2') format('woff2'),
+	url('webfonts/GT-Super-Text-Bold.woff') format('woff'),
+	url('webfonts/GT-Super-Text-Bold.ttf') format('truetype');
+}
+
+
+
+ 
